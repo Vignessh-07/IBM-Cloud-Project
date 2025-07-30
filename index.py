@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 import pandas as pd
 
-API_KEY = "D3UeblXii-NndH-JE4QITBdn-vvCWUdomnRQYyYLLkzb"
-DEPLOYMENT_URL = "https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/nid_web/predictions?version=2021-05-01"
+API_KEY = "Your API Key"
+DEPLOYMENT_URL = "The Public Deployment URL"
 
 def get_token(api_key):
     response = requests.post(
